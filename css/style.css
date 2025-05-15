@@ -1,0 +1,231 @@
+ body {
+      background-color: #2c2c2c;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .hero-section {
+       background-color: #2c2c2c;
+  background-image: url('../images/hero back.png');
+  background-size: cover;
+  background-position: center;
+  
+  padding-top: 100px; /* Adjust based on navbar height */
+  text-align: center;
+  position: relative;
+  
+    }
+
+    .hero-title {
+      font-size: 3rem;
+      font-family: 'Cursive';
+      margin-bottom: 10px;
+    }
+
+    .hero-subtext {
+      font-size: 1rem;
+      color: #ccc;
+      max-width: 500px;
+      margin-right: 50px;
+    }
+
+    .hero-img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .btn-custom {
+      background-color: white;
+      color: black;
+      padding: 10px 25px;
+      border: none;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar-dark .navbar-brand {
+      color: white;
+      font-weight: bold;
+    }
+
+    .navbar {
+      background-color: transparent;
+    }
+
+ .search-form {
+  position: relative;
+}
+
+.search-input {
+  padding-right: 2.2rem;
+  background-color: #fff;
+  border: none;
+  height: 38px;
+  width: 150px;
+  color: #000;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-icon {
+   position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+.custom-gap {
+  margin-right: 62px !important;
+}
+.hero-title {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 91px;
+  margin-bottom: 10px;
+  font-optical-sizing: auto;
+}
+.hero-text{
+   font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-custom{
+   font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+  font-variation-settings:
+    "wdth" 100;
+}
+.btn-custom {
+  
+  width: 213px; /* Extremely narrow */
+  padding: 4px 10px; /* Remove any default padding to fit the height and width exactly */
+  margin: 0;
+  text-align: center; /* Ensures text is centered */
+   border-radius: 25px;
+   background-color: whitesmoke;
+}
+.hero-title {
+  margin-top: -20px;
+}
+
+.product{
+  background-color: white;
+  padding: 100px 0;
+  
+  }
+
+.font{
+   font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+}
+.custom{
+   height: 44px;
+  width: 213px; /* Extremely narrow */
+  padding: 8px; /* Remove any default padding to fit the height and width exactly */
+  margin: 0;
+  text-align: center; /* Ensures text is centered */
+   border-radius: 25px;
+}
+.custom:hover{
+  background-color: #333 !important; /* Slightly lighter black */
+    color: red !important;
+}
+.test{
+  background-color: black;
+  padding: 60px 0;
+}
+.wide{
+  background-color: whitesmoke !important;
+    height: 44px;
+     border-radius: 18px;
+padding: 8px;
+    width: 213px; 
+}
+.wide:hover{
+  color: orangered !important;
+}
+.nav-hover {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+ .nav-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffcc00; /* Change to your brand color */
+    transition: width 0.3s ease;
+  }
+ .nav-hover:hover::after {
+    width: 100%;
+  }
+  .promp{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  .marketting{
+    padding: 60px 0;
+    background-color: white;
+  }
+  .dark{
+    color: white !important;
+    background-color: black;
+     border-radius: 22px;
+padding:8px 4px;
+    width: 213px;
+  }
+  .dark:hover{
+    color: orangered !important;
+  }
+  .food{
+    padding: 70px 0;
+    background: url('../images/hero back.png');
+background-size: cover;
+  background-position: center;
+  text-align: center;
+  
+  }
+  .underline-text {
+  position: relative;
+  display: inline-block;
+  color: white; /* Optional: for better visibility */
+}
+
+.underline-text::after {
+  content: "";
+  position: absolute;
+  bottom: -30px; /* Adjust spacing from text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%; /* Adjust to desired length */
+  border-bottom: 3px solid white;
+}
+.leaf-image {
+  float: left;
+  margin-top: -110px; /* Moves image slightly up */
+  max-width: 100px;   /* Adjust size as needed */
+}
